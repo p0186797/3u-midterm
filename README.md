@@ -114,4 +114,3 @@ One output - an integer.
 
     18
     
-    ---
