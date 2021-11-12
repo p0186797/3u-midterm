@@ -3,7 +3,7 @@
 Optional Midterm
 ---
 
-**For the following programs, leave the prompt in the input function empty.**
+**For the following programs, leave the prompt in the input function empty and make sure to also strip the input.**
 
 ---
 Create a python file called **fish.py** and upload it to this repo. At the beginning of the python file, write a description of the program(s) in a comment. 
