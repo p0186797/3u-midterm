@@ -88,15 +88,15 @@ You are your friend share a locker which uses a directional lock. The directiona
 
 Each instruction is a sequence of 5 digit numbers which represents one direction.
 
-If the sequence of numbers sum to 0 to 10 inclusive, move the lock to N.
+If the sequence of numbers sums to 0 to 10 inclusive, move the lock to N.
 
-If the sequence of numbers sum to 11 to 20 inclusive, move the lock to S.
+If the sequence of numbers sums to 11 to 20 inclusive, move the lock to S.
 
-If the sequence of numbers sum to 21 to 30 incluside, move the lock to E.
+If the sequence of numbers sums to 21 to 30 incluside, move the lock to E.
 
-If the sequence of numbers sum to 31 to 40 inclusive, move the lock to W.
+If the sequence of numbers sums to 31 to 40 inclusive, move the lock to W.
 
-If the sequence of numbers sum to 41 to 45 incluside, then this is the last line and there are no more directions.
+If the sequence of numbers sums to 41 to 45 incluside, then this is the last line and there are no more directions.
 
 Write a program that reads a series of 5 digit coded directions and outputs the directions for the directional lock.
 
