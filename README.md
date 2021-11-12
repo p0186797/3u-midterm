@@ -67,7 +67,7 @@ Two outputs. The first output is the x-value of the final coordinate. The second
 &nbsp;&nbsp; **Sample Output 1**
 
     3
-    2
+    -2
 
 &nbsp;&nbsp; **Sample Input 2**
 
