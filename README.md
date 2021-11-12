@@ -82,35 +82,53 @@ Two outputs. The first output is the x-value of the final coordinate. The second
     
 ---
 
-Create a python file called **lcm.py** and upload it to this repo. At the beginning of the python file, write a description of the program(s) in a comment. 
+Create a python file called **secret.py** and upload it to this repo. At the beginning of the python file, write a description of the program(s) in a comment. 
 
-Write a program that reads three positive integers and outputs their lowest common multiple.
+You are your friend share a locker which uses a directional lock. The directional lock has 4 directions: N, S, E, W. You forgot the combination so your friend leaves coded instructions for you.
+
+Each instruction is a sequence of 5 digit numbers which represents one direction.
+
+If the sequence of numbers sum to 0 to 10 inclusive, move the lock to N.
+
+If the sequence of numbers sum to 11 to 20 inclusive, move the lock to S.
+
+If the sequence of numbers sum to 21 to 30 incluside, move the lock to E.
+
+If the sequence of numbers sum to 31 to 40 inclusive, move the lock to W.
+
+If the sequence of numbers sum to 41 to 45 incluside, then this is the last line and there are no more directions.
+
+Write a program that reads a series of 5 digit coded directions and outputs the directions for the directional lock.
 
 ### Input Specification
 
-Three inputs - all positive integers.
+There will be at least two lines of input. Each line except the last line will contain exactly five digits representing an instruction. The last line will contain a 5 digit number whose digits sum to 44 to 45 inclusive. No other line will sum to 41 to 45 inclusive.
+
 
 ### Output Specification
 
-One output - an integer.
+A string of characters containing N, S, W, E.
 
 &nbsp;&nbsp; **Sample Input 1**
 
-    3
-    4
-    6
+    12345
+    02849
+    48697
+    87395
+    99999
 
 &nbsp;&nbsp; **Sample Output 1**
 
-    12
+    SEWW
 
 &nbsp;&nbsp; **Sample Input 2**
 
-    2
-    9
-    6
+    42393
+    21332
+    01002
+    98799
 
 &nbsp;&nbsp; **Sample Output 2**
 
-    18
+    ESN
     
