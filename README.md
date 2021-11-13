@@ -102,7 +102,7 @@ Write a program that reads a series of 5 digit coded directions and outputs the 
 
 ### Input Specification
 
-There will be at least two lines of input. Each line except the last line will contain exactly five digits representing an instruction. The last line will contain a 5 digit number whose digits sum to 44 to 45 inclusive. No other line will sum to 41 to 45 inclusive.
+There will be at least two lines of input. Each line except the last line will contain exactly five digits representing an instruction. The last line will contain a 5 digit number whose digits sum to 41 to 45 inclusive. No other line will sum to 41 to 45 inclusive.
 
 
 ### Output Specification
