@@ -1,6 +1,3 @@
-# 3u-midterm
-
-Optional Midterm
 ---
 
 **For the following programs, leave the prompt in the input function empty and make sure to also strip the input.**
