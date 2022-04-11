@@ -10,11 +10,11 @@ Create a python file called **fish.py** and upload it to this repo. At the begin
 
 You take your daughter to the pond to see the fish. When she sees a single fish, she shouts "One fish!", when she sees two together she shouts "Two fish!, when she sees a red one she shouts "Red fish!", and a blue one, "Blue Fish!". If there are no fish in the pond, she shouts "No fish!"
 
-Given a string of fish spotted in the pond (1 for one fish, 2 for two fish, r for red fish, b for blue fish, and 0 for no fish), predict the series of exclamations you'd expect to hear from your daughter.
+Given a string of fish spotted in the pond (1 for one fish, 2 for two fish, r for red fish, b for blue fish, and 0 for no fish), predict the series of exclamations you'd expect to hear from your daughter. *Make sure to validate the input.*
 
 ### Input Specification
 
-One string consisting of a series of characters: 1, 2, r, b, 0. Each character represents a type of fish.
+One string consisting of a series of characters: 1, 2, r, b, 0. 0 would only occur by itself. Each character represents a type of fish. 
 
 ### Output Specification
 
@@ -48,7 +48,7 @@ One string with all exclamations made in response to the fish spotted.
 
 Create a python file called **directions.py** and upload it to this repo. At the beginning of the python file, write a description of the program(s) in a comment. 
 
-Write a program that takes in three inputs. The first two inputs represent the x and y values of a coordinate. The third input is a string consisting of a series of characters L, R, D, U. L represents move left 1 unit. R represents move right 1 unit. D represents move down 1 unit. U represents move up 1 unit. Your program should output the final coordinate after the initial coordinate is translated the directions given.
+Write a program that takes in three inputs. The first two inputs represent the x and y values of a coordinate. The third input is a string consisting of a series of characters L, R, D, U. L represents move left 1 unit. R represents move right 1 unit. D represents move down 1 unit. U represents move up 1 unit. Your program should output the final coordinate after the initial coordinate is translated the directions given. *You do not need to validate input.*
 
 ### Input Specification
 
@@ -98,7 +98,7 @@ If the sequence of numbers sums to 31 to 40 inclusive, move the lock to W.
 
 If the sequence of numbers sums to 41 to 45 incluside, then this is the last line and there are no more directions.
 
-Write a program that reads a series of 5 digit coded directions and outputs the directions for the directional lock.
+Write a program that reads a series of 5 digit coded directions and outputs the directions for the directional lock. *You do not need to validate input.*
 
 ### Input Specification
 
